@@ -1,0 +1,52 @@
+.container
+{   
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(159, 196, 187, 0.404);
+}
+body
+{
+    background-color:white;
+}
+.title
+{
+    color: rgb(80, 74, 74);
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.userInput
+{
+  padding-top: 30px;
+  padding-right: 600px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  box-shadow: 100px 100px 100px grey;
+}
+.allItems
+{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    background-color: rgb(159, 152, 152);
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.deleteMark
+{
+    background-color: green;
+}
+.textEle{
+    text-decoration: line-through;
+}
+.deleteSymbol1
+{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
